@@ -11,6 +11,7 @@ def reformat_languages(languages)
       else
         newhash[program] = type
         newhash[program][:style] = arr
+      end
     end
   end
   return newhash
